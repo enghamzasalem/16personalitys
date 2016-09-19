@@ -1,0 +1,39 @@
+<ion-view view-title="التوافق ">
+  <ion-content>
+ 
+<div class="list list-inset">
+  <label class="item item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" ng-model="nameSelection.text" capitalize id="TExttdddd" placeholder="ادخل حروف شخصيتك مثلا ُENTJ">
+  </label>
+</div>
+<button  class="button button-full button-dark"  ng-click="showMeTheTawafoq();" style="border-radius: 12px;" >
+ بحث
+</button>
+
+<div class="card" id="fff" style="display:none">
+  <div class="item item-text-wrap">
+
+  الشخص الذي تحبه يجب ان يكون :    <a href="{{lovelink}}">  <h2> {{love}}</h2><a/> 
+	العدو اللدود لشخصيتك هو:   <a href="{{enemylink}}"> <h2> {{enemy}}</h2><a/>
+  
+ افضل الشخصيات لاقامة علاقة معهم هم : <h2> {{bestrelation}}</h2>
+
+    علاقات محتملة معهم:<h2> {{possibleelation}}</h2> 
+
+	اقل الشخصيات بالتوافق :     <h2> {{worsterelation}}</h2>
+	
+  </div>
+  <br>
+   شارك شخصيتك على #الشخصيات_ال_16 وتعرف على اشخاص يتوافقون معك بالشخصية  مثلا #ENTJ
+<!--    <button class="button button-full button-dark " ng-click="shareAnywhere()" style="border-radius: 12px;">شارك نتيجتك</button> -->
+    <button class="button button-block button-positive icon-left ion-social-facebook"  ng-click="shareAnywhere()"  style="background: #4c66a4;border-radius: 12px;">
+          <span ng-show="!loading">Share On FaceBook</span>
+          <i ng-show="loading" class="ion-loading-b"></i>
+        </button>
+</div>
+
+    <!-- video block goes here -->
+</div>
+  </ion-content>
+</ion-view>

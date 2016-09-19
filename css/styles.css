@@ -1,0 +1,142 @@
+/* Font  
+========================================================================================*/	
+
+@font-face {
+    font-family: 'bader';
+	  src: url('../fonts/bader_algorthabia.ttf');
+    src: url('../fonts/bader_algorthabia.eot');
+    src: url('../fonts/bader_algorthabia.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bader_algorthabia.woff2') format('woff2'),
+         url('../fonts/bader_algorthabia.woff') format('woff'),
+         url('../fonts/bader_algorthabia.ttf') format('truetype'),
+         url('../fonts/bader_algorthabia.svg#Midan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'almwaheb';
+	  src: url('../fonts/almwaheb.ttf');
+    src: url('../fonts/almwaheb.eot');
+    src: url('../fonts/almwaheb.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/almwaheb.woff2') format('woff2'),
+         url('../fonts/almwaheb.woff') format('woff'),
+         url('../fonts/almwaheb.ttf') format('truetype'),
+         url('../fonts/almwaheb.svg#Midan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body { -webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; font-family:bader; color:#000000;  line-height:21px; direction: rtl;}
+h1 { font-family: almwaheb; }
+h2, h3, h4, h5, h6, nav, #footer { font-family: almwaheb; }
+/* End Font  
+========================================================================================*/
+
+/* Branding  
+========================================================================================*/
+body { background:#1b3340 url(../img/body-pattern.png) repeat 0 0; margin:0; }
+.pageWidth { width:940px; margin:0 auto;}
+/*.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}*/
+#logo { background:#ffffff; border-radius:50%; border:solid 6px rgba(0,0,0,0.90); color:#222222; font-size:38px; line-height:50px; width:178px; height:153px; padding:45px 5px 0 5px; margin:0 auto; text-align:center; }
+.logo { background:url(../img/logo-bg.png) repeat 0 0; text-align:center; border-radius:50%; padding:32px; margin:0 auto 32px 0; display:inline-block; }
+
+#header { padding:34px 0 0 0; text-align:center; margin-bottom:10px; }
+header, nav, section, footer { display:block;}
+
+/* END Branding  
+========================================================================================*/
+
+/* HEADING   
+========================================================================================*/
+
+h1, h2, h3, h4, h5, h6 { color:#ffffff; }
+h1 { font-size:60px; line-height:68px; }
+h2 { font-size:30px; line-height:38px; margin-bottom:10px; }
+h3 { font-size:28px; line-height:36px; margin-bottom:8px; }
+h4 { font-size:26px; line-height:34px; margin-bottom:6px; }
+h5 { font-size:24px; line-height:32px; margin-bottom:4px; }
+h6 { font-size:22px; line-height:30px; margin-bottom:4px; }
+
+/* END  HEADING   
+========================================================================================*/
+
+/* Links AND Button   
+========================================================================================*/
+a:focus{ outline:none;}
+a { text-decoration:none; color:#9d9d9d }
+a:hover { color:#393939 }
+/* Links AND Button   
+========================================================================================*/
+
+/* Main Navigation 
+========================================================================================*/
+ 
+nav { background:#ffffff; border-radius:10px; font-size:20px;}
+nav li { background:url(../img/nav-devider.png) no-repeat 0% center; text-align:center; padding:0 3% 0 4%; text-align:center; display:inline; border-radius:50%; }
+nav li a { color:#202720; display:inline-block; line-height:100px;}
+nav li a:hover, nav li.active a { color:#888888; }
+nav li:first-child { background:none; }
+	
+#menu { 
+    display: none;
+font-size: 22px;
+color: rgba(0, 0, 0, 0.4);
+background-image: url("../img/menu-img.png");
+background-repeat: no-repeat;
+padding: 15px 0px 15px 3%;
+line-height: 23px;
+background-position: 2% 15px;
+text-align: center; }
+
+/* End Navigation 
+========================================================================================*/
+
+#container { background:rgba(000,000,000,0.20); padding:25px 0 15px 0; margin-bottom:10px;  } 
+#container ol { margin-left:15px; }
+#container ol li { list-style:decimal; }
+
+article ul li { padding-left:15px;}
+article ul li:before{ content:'B'; text-indent:-5px; font-weight:bold; font-size:60px; height:5px; line-height:5px; width:5px; border-radius:10px;  vertical-align:middle; float:left;  margin-left:-15px; overflow:hidden; margin-top:8px; }
+article ol { margin-left:15px; }
+article ol li { list-style:decimal; }
+
+.pageControl{  width:910px; padding:0 15px;
+transform: translate(0px, 0px);
+-webkit-transform: translate(0px, 0px);
+-moz-transform: translate(0px, 0px);
+-o-transform: translate(0px, 0px);
+-ms-transform: translate(0px, 0px);}
+
+.activepage .pageControl{transform: translate(-1000px, 0px);
+-webkit-transform: translate(-1000px, 0px);
+-moz-transform: translate(-1000px, 0px);
+-o-transform: translate(-1000px, 0px);
+-ms-transform: translate(-1000px, 0px);
+
+}
+
+/* FORM 
+========================================================================================*/
+fieldset {}
+/* Footer
+===============================================*/
+#footer { text-align:center; font-size:12px; padding:50px 0 50px 0; }
+.copyRight { color:#ffffff; }
+
+/* transition
+===============================================*/
+#wrapper, #widecolumn, aside, nav li{transition: all 0.2s; -moz-transition: all 0.2s; -webkit-transition: all 0.2s; -o-transition: all 0.2s;}
+
+
+

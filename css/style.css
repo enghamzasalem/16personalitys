@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: 'bader';
+	  src: url('../fonts/bader_algorthabia.ttf');
+    src: url('../fonts/bader_algorthabia.eot');
+    src: url('../fonts/bader_algorthabia.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bader_algorthabia.woff2') format('woff2'),
+         url('../fonts/bader_algorthabia.woff') format('woff'),
+         url('../fonts/bader_algorthabia.ttf') format('truetype'),
+         url('../fonts/bader_algorthabia.svg#Midan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body { -webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; font-family:bader;font-size:20px; color:#000000;  line-height:21px; direction: rtl;}
