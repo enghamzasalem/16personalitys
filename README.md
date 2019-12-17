@@ -8,7 +8,6 @@
 
 ```
 
-it simple application as simple qiuz;
 ![alt text](https://raw.githubusercontent.com/enghamzasalem/16personalitys/master/index.png)
 ![alt text](https://raw.githubusercontent.com/enghamzasalem/16personalitys/master/index2.png)
 ![alt text](https://raw.githubusercontent.com/enghamzasalem/16personalitys/master/index3.png)
